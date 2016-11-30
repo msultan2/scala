@@ -2,8 +2,7 @@
   * Created by mohamedsultan on 30/11/2016.
   */
 import scala.math._
-class Math {
-
+object Math {
   def main(args: Array[String]): Unit = {
     "5 + 4 = " + (5 + 4)
     "5 - 4 = " + (5 - 4)
@@ -27,7 +26,7 @@ class Math {
 
     // Import the math library in the terminal import scala.math._
 
-    abs(-8)
+    println(abs(-8))
     cbrt(64) // Cube root a^3 = n (Find a)
     ceil(5.45)
     round(5.45)
